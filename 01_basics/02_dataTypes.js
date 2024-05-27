@@ -18,4 +18,4 @@ let state;
 
 //*Object
 console.log(typeof undefined)  // type is also undefined
-console.log(typeof null) // type is object
+console.log(typeof null) // type is object 
