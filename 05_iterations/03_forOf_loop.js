@@ -8,7 +8,7 @@ for (const i of arr) {
 const greetings = "Hello world"
 
 for(const greet of greetings){
- //   console.log(greet);
+    // console.log(greet);
 }
 
 //maps
@@ -27,4 +27,8 @@ for(const [key, value] of map){
 const myObject ={
     game1 : 'Bgmi',
     game2 : 'COD'
+}
+
+for(const [key, value] of myObject){   //-->Object is not iterable
+    console.log(key+":-"+value);
 }
