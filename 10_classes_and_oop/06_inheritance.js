@@ -16,7 +16,9 @@ class Teacher extends User{
     }
 
     addCourse(){
+
         console.log(`A new course was added by ${this.username}`);
+        
     }
 }
 
